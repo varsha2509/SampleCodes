@@ -30,7 +30,7 @@ gen = reg.data.valid$CSEX
 WL = reg.data.valid$WJPCSCG3;
 
 
-
+ 
 #Robust regression
 library(MASS)
 RReg = rlm(AVG ~ MVPA)
