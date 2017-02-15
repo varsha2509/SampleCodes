@@ -146,7 +146,7 @@ non_univ_town = new_dataframe[~new_dataframe['RegionName'].isin(df2['RegionName'
 from scipy import stats
 
 [p,statistic] = stats.ttest_ind(univ_town['PriceRatio'].dropna(), non_univ_town['PriceRatio'].dropna())
-
+ 
 
 univ_town_mean = univ_town['PriceRatio'].mean()
 non_univ_town_mean = non_univ_town['PriceRatio'].mean()
